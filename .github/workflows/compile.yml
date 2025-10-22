@@ -197,6 +197,9 @@ jobs:
     runs-on: ubuntu-latest
     if: ${{ needs.check_tags.outputs.latest_mio_tag != needs.check_tags.outputs.latest_local_tag }}
     steps:
+      - name: Checkout repository
+        uses: actions/checkout@v5
+
       - name: Update Dockerhub Description
         uses: peter-evans/dockerhub-description@v5
         with:
