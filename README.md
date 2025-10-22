@@ -1,4 +1,4 @@
-# MinIO-DL
+# MinIO-Dist
 
 This repository automates the MinIO build process, creates binaries and container images from it, and publishes them as
 releases or on Docker Hub. New releases are automatically created once a new tag is pushed to the upstream MinIO
@@ -6,8 +6,8 @@ repository. This project is a direct result of MinIO going source-only for the c
 
 ### Useful Links
 
-- [This Repository](https://github.com/derklaro/minio-dl)
-- [Latest Release](https://github.com/derklaro/minio-dl/releases/latest)
+- [This Repository](https://github.com/derklaro/minio-dist)
+- [Latest Release](https://github.com/derklaro/minio-dist/releases/latest)
 - [Dockerhub](https://hub.docker.com/r/derklaro/minio)
 - [MinIO Source](https://github.com/minio/minio)
 
